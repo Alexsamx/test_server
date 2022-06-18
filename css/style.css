@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Anek Latin', sans-serif;
+}
+/*header====================================================================================================*/
+
+.header{
+    background-color: rgb(0, 0, 0);
+
+}
+
+.container{
+    max-width: 1400px;
+    margin: 0 220px;
+    border: solid red 1px;
+   
+}
+
+.header_inner{
+    margin: 0px 70px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.main_text{
+font-weight: 700;
+font-size: 50px;
+line-height: 74px;
+margin-top: 110px;
+color: #EFF7FF;
+}
+
+.second_text{
+    opacity: 70%;
+    font-weight: 400;
+font-size: 23px;
+line-height: 59px;
+/* identical to box height, or 168% */
+color: #FFF8E3;
+display: flex;
+align-items: center;
+}
+
+.car{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0px 40px 40px;
+    margin-right: 100px;
+    border: red solid 2px;
+    border-radius: 30px;
+}
+
+.car_info{
+    margin-left: 40px;
+}
+
+.car_info>h3{
+   color: #FFF8E3;
+   font-size: 30px;
+}
+
+/* secton1 ========================================== */
+
+section{
+    background-color: black;
+
+}
+
+.section_inner{
+    margin-top: 104px;
+    background: #1C2435;
+    border-radius: 29px;
+    padding: 73px 108px;
+}
+
+.gold{
+    color: #BF9A5E;
+}
+
+section h3{
+    font-size: 30px;
+}
