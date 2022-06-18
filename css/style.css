@@ -29,28 +29,27 @@ body{
 }
 
 .main_text{
-font-weight: 700;
-font-size: 50px;
-line-height: 74px;
-margin-top: 110px;
-color: #EFF7FF;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 74px;
+    margin-top: 110px;
+    color: #EFF7FF;
 }
 
 .second_text{
     opacity: 70%;
     font-weight: 400;
-font-size: 23px;
-line-height: 59px;
-/* identical to box height, or 168% */
-color: #FFF8E3;
-display: flex;
-align-items: center;
+    font-size: 23px;
+    line-height: 59px;
+    color: #FFF8E3;
+    display: flex;
+    align-items: center;
 }
 
 .car{
     display: flex;
     flex-direction: row;
-    padding: 40px 0px 40px 40px;
+    padding: 40px 40px 40px 40px;
     margin-right: 100px;
     border: red solid 2px;
     border-radius: 30px;
@@ -58,6 +57,7 @@ align-items: center;
 
 .car_info{
     margin-left: 40px;
+    line-height: 1.5;
 }
 
 .car_info>h3{
@@ -69,7 +69,7 @@ align-items: center;
 
 section{
     background-color: black;
-    
+
 }
 
 .section_inner{
@@ -83,6 +83,14 @@ section{
     color: #BF9A5E;
 }
 
+.gilded{
+    color: #E3CC97;
+}
+
+.turquoise{
+    color: #CEFFFF;
+}
+
 section h3{
     font-size: 30px;
 }
@@ -93,6 +101,21 @@ section h3{
 }
 
 .second_par{
-    font-size: 20px;
-    line-height: 1.5;
+    font-size: 40px;
+    color: white;
+}
+
+button{
+    width: 458px;
+    height: 109px;
+    background: linear-gradient(#CEFFFF, #BF9A5E); 
+    border-radius: 29px;
+    text-align: center;
+    display: inline-block;
+    font-size: 35px;
+}
+
+p{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
