@@ -69,14 +69,14 @@ align-items: center;
 
 section{
     background-color: black;
-
+    
 }
 
 .section_inner{
     margin-top: 104px;
     background: #1C2435;
     border-radius: 29px;
-    padding: 73px 108px;
+    padding: 73px 100px 95px 108px;
 }
 
 .gold{
@@ -85,4 +85,14 @@ section{
 
 section h3{
     font-size: 30px;
+}
+
+.first_par{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.second_par{
+    font-size: 20px;
+    line-height: 1.5;
 }
