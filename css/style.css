@@ -5,20 +5,16 @@ body{
     font-family: 'Anek Latin', sans-serif;
     background-color: #1F1942;
 }
-/*header====================================================================================================*/
 
 .header{
-    /*background: linear-gradient(0deg, #FF0077 0%, #1F1942 100%);*/
     background-color: #1F1942;
-    background-image: url("../img/Vector.png");
-    background-size: 100% 500px;
+    background-image: url("../img/Vector.svg");
     background-repeat: no-repeat;
 }
 
 .container{
-    max-width: 1400px;
-    margin: 0 220px;
-    /*border: solid red 1px;*/
+    max-width: 1200px;
+    margin: 0 450px;
 }
 
 .header_inner{
@@ -69,8 +65,6 @@ body{
    font-size: 30px;
 }
 
-/* section ========================================== */
-
 section{
     background-color: #1F1942;
 }
@@ -99,7 +93,7 @@ section h3{
 }
 
 .first_par{
-    font-size: 20px;
+    font-size: 25px;
     line-height: 1.5;
 }
 
@@ -123,8 +117,6 @@ p{
     margin-bottom: 1.5em;
 }
 
-/*footer ================================== */
-
 .footer{
     background-color: #1F1942;
 }
@@ -135,5 +127,11 @@ p{
     justify-content: center;
     margin-top: 80px;
     margin-bottom: 160px;
+}
+
+@media (max-width: 500px) {
+    .container{
+        margin: 0px;
+    }
 }
 
