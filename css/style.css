@@ -10,13 +10,12 @@ body{
     background-color: #1F1942;
     background-image: url("../img/Vector.svg");
     background-repeat: no-repeat;
-    min-width: 2000px;
+    width: 100%;
 }
 
 .container{
-    max-width: 1400px;
-    min-width: 1000px;
-    margin: 0 450px;
+    max-width: 1280px;
+    margin: 0 350px;
 }
 
 .header_inner{
@@ -27,7 +26,6 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 100px;
-    width: 900px;
 }
 
 .main_text{
@@ -51,12 +49,11 @@ body{
 .car{
     display: flex;
     flex-direction: row;
-    padding: 40px 40px 40px 40px;
+    padding: 40px 0px 40px 40px;
     margin-right: 100px;
     border: white solid 2px;
     border-radius: 30px;
-    align-items: center;
-    width: 780px;
+    min-width: 500px;
 }
 
 .car_info{
@@ -78,6 +75,7 @@ section{
     background: #1C2435;
     border-radius: 29px;
     padding: 73px 100px 95px 108px;
+    min-width: 500px;
 }
 
 .gold{
@@ -107,7 +105,7 @@ section h3{
 }
 
 button{
-    width: 458px;
+    width: fit-content;
     height: 109px;
     background: linear-gradient(#CEFFFF, #BF9A5E); 
     border-radius: 29px;
@@ -133,11 +131,33 @@ p{
     margin-bottom: 160px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1280px) {
     .container{
-        margin: 0px;
+        margin: 0px 100px;
     }
 }
 
-
-
+@media (max-width: 840px) {
+    .container {
+        margin: 15px;
+    }
+    .section_inner {
+        padding-left: 10px;
+        padding-right: 10px;
+        min-width: 420px;
+    }
+    .logo {
+        justify-content: center;
+    }
+    .car {
+        flex-direction: column;
+        justify-content: left;
+        min-width: 390px;
+    }
+    .car>img {
+        margin-left: 30px;
+    }
+    .header_inner {
+        margin: 0px 10px;
+    }
+}
