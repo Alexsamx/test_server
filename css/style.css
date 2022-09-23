@@ -132,12 +132,14 @@ p{
 }
 
 @media (max-width: 1280px) {
+    
     .container{
         margin: 0px 100px;
     }
 }
 
 @media (max-width: 840px) {
+    
     .container {
         margin: 15px;
     }
@@ -159,5 +161,22 @@ p{
     }
     .header_inner {
         margin: 0px 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    
+    .car {
+        padding: 40px 0;
+        min-width: 300px;
+    }
+
+    .section_inner {
+        min-width: 300px;
+    }
+
+    .footer_inner img {       
+        width: 100px;
+        height: 100px;
     }
 }
